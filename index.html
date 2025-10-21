@@ -1,43 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
   <head>
     <meta charset="UTF-8">
-    <title>flex-container</title>
-    <link rel="stylesheet" href="./style.css">
-
+          <title>Dominando DOM JS</title>
+    
+   
   </head>
-    
-  <body>
-  <!DOCTYPE html>
-<html  lang="es">
-<head>
-  <meta charset="UTF8"
-        
-
-</head>
 <body>
-
-<h1> GUIA TURÍSTICA</h1>
-
-<div class="container">
-  <div> <img src="https://media.istockphoto.com/id/2211383613/es/foto/gente-caminando-por-la-calle-moneda-cerca-del-zócalo-con-la-catedral-de-la-ciudad-de-méxico-al.webp?a=1&b=1&s=612x612&w=0&k=20&c=-xi_ntc7CwrG_0x2O9txO_u2-s0G93O_khp1ZzQLNeQ=" alt="Ciudad" width="200"></div>
+  <h1> Desafio de JS </h1>
   
-  <div> <img src="https://images.unsplash.com/photo-1493794179168-82ca7cb00437?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1742" alt="Torre Latinoamericana" width="200"></div>
+  <!--seccion del reto de las cajas-->
   
-  <div> <img src="https://images.unsplash.com/photo-1547686669-9a8cb1a22d91?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2l1ZGFkJTIwZGUlMjBtZXhpY298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=800" alt="Monumento a la Revolucion" width="200"></div>
+    <h2 id="titulo-cajas" style="color:#442B47
+"> Reto de las CAJAS </h2>
+  <button id="btn-cajas-titulo">
+    Cambiar el titulo
+  </button>
   
-  <div><img src="https://images.unsplash.com/photo-1574493264149-87880133a2ba?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2l1ZGFkJTIwZGUlMjBtZXhpY298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=800" alt="Angel de la Independencia" width="200"></div>
   
-    <div><img src="https://images.unsplash.com/photo-1585464231875-d9ef1f5ad396?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l1ZGFkJTIwZGUlMjBtZXhpY298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=800" alt="Zócalo"   width="200"></div>
-</div>
+  <hr> 
+  
+    <div class="contenedor">
+        <div class="caja"> Caja 1
+  </div>
+      
+      <div class="caja"> Caja 2
+  </div>
+  
+   <div class="caja"> Caja 3
+      </div>
+      
+  </div>
+  
+      <button id="btn-cajas"> Cambiar el color de las cajas
+      </button>
+    <button id="btn-primera"> Cambiar el color de la caja 1
+      </button>
+  <button id="btn-borde">
+    Cambiar el borde de las cajas </button>
+  
+    <!--seccion del reto de la galeria-->
+  <hr>
+      <h2> Reto - GALERIA </h2>
+  
+  <div class="container py-4">
+<!-- Input y Botón -->
+    <div class="row mb-3">
+      <div class="col-md-8">
+        <input 
+          type="text" 
+          class="form-control" 
+          id="imageUrlInput" 
+          placeholder="Introduce la URL de la imagen">
+      </div>
+      <div class="col-md-4">
+        <button 
+          class="btn btn-primary w-100" 
+          id="addImageBtn">
+          Agregar Imagen
+        </button>
+      </div>
+    </div>
 
-  <p><strong>La Ciudad de México</strong> es una capital vibrante donde conviven historia, cultura y modernidad. Con sus museos, arquitectura única y deliciosa gastronomía, ofrece una experiencia inolvidable a quienes la visitan.</p>
-
-
-</body>
-</html>
-    
+    <!-- Contenedor de la galería -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="galleryContainer">
+      <!-- Aquí se añadirán las imágenes dinámicamente -->
+    </div>
+  </div>
+ 
   </body>
-  
 </html>

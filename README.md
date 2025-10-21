@@ -1,7 +1,6 @@
-Actividad sesion 17
-sobre flex-box # flex-container
+# Reto de las cajas_JS_Estephany
 
 A Pen created on CodePen.
 
-Original URL: [https://codepen.io/ESTEPHANY-HERNANDEZ/pen/qEbPmmW](https://codepen.io/ESTEPHANY-HERNANDEZ/pen/qEbPmmW).
+Original URL: [https://codepen.io/ESTEPHANY-HERNANDEZ/pen/vELWQNy](https://codepen.io/ESTEPHANY-HERNANDEZ/pen/vELWQNy).
 
